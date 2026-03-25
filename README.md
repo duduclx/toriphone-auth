@@ -5,10 +5,12 @@ Ce module renvois:
 - un context React gérant l'authentification et le package Wazo-js-sdk
 
 ## remarques
-lorsque apiClient est mis à jour, cela ne force pas un refresh des applications,
+Lorsque apiClient est mis à jour, cela ne force pas un refresh des applications,
 créant une requête avec l'ancien token.
+
 Le Auth devrait être directement inclus dans chaque projet, et non être ici.
-Si toriphone-sdk est contruit, alors il doit intégrer complètement la gestion de l'authentification et du renouvellement du token et de apiClient
+
+Si toriphone-sdk est contruit, alors il doit intégrer complètement la gestion de l'authentification et du renouvellement du token et de apiClient.
 
 ## build
 
@@ -139,6 +141,6 @@ const {
 ## dépedances
 
 Dans votre projet, vous devez avoir obligatoirement avoir:
-. "@chakra-ui/react": "^3.0.0",
-. "react": "^19.0.0",
-. "react-dom": "^19.0.0"
+- "@chakra-ui/react": "^3.0.0",
+- "react": "^19.0.0",
+- "react-dom": "^19.0.0"
