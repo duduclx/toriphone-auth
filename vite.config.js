@@ -13,7 +13,7 @@ export default defineConfig({
       formats: ['esm'], // Génère un bundle au format ESM
     },
     rollupOptions: {
-      external: ['react', 'react-dom', "@chakra-ui/react"], // Exclut React et ReactDOM
+      external: ['react', 'react-dom', "@chakra-ui/react", "@emotion/react", "next-themes"], // Exclut React et ReactDOM
       output: {
         globals: {
           react: 'React',
