@@ -1,0 +1,20 @@
+{
+  "login": {
+    "unauthorized": "servidor no autorizado",
+    "invalid": "usuario no reconocido",
+    "subscription": "Su suscripción no permite el uso de esta aplicación",
+    "form_email": "correo electrónico",
+    "form_password": "contraseña",
+    "form_password_forgot": "¿Olvidaste tu contraseña?",
+    "form_server": "servidor",
+    "form_server_placeholder": "Servidor",
+    "form_button": "Iniciar sesión",
+    "form_button_loading": "Cargando...",
+    "form_error_login": "¡Usuario/contraseña incorrectos!",
+    "form_error_server": "¡Servidor inaccesible!",
+    "form_error_other": "Se produjo un error",
+    "update_password_event": "actualización de la contraseña",
+    "update_password_event_true": "¡Contraseña cambiada!",
+    "update_password_event_false": "¡La contraseña no se actualizó!"
+  }
+}

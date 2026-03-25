@@ -1,0 +1,20 @@
+{
+  "login": {
+    "unauthorized": "serveur non autorisé",
+    "invalid": "utilisateur non reconnu",
+    "subscription": "L'abonnement ne permet pas d'utiliser cette application",
+    "form_email": "adresse email",
+    "form_password": "mot de passe",
+    "form_password_forgot": "Mot de passe oublié ?",
+    "form_server": "serveur",
+    "form_server_placeholder": "serveur",
+    "form_button": "Se connecter",
+    "form_button_loading": "Chargement ...",
+    "form_error_login": "identifiant / mot de passe incorrect !",
+    "form_error_server": "serveur injoignable !",
+    "form_error_other": "une erreur est survenue",
+    "update_password_event": "mise à jour mot de passe",
+    "update_password_event_true": "Mot de passe changé !",
+    "update_password_event_false": "Le mot de passe n'a pas été mis à jour !"
+  }
+}

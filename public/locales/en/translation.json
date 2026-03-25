@@ -1,0 +1,20 @@
+{
+  "login": {
+    "unauthorized": "unauthorized server",
+    "invalid": "user not recognized",
+    "subscription": "Your subscription does not allow the use of this application",
+    "form_email": "email address",
+    "form_password": "password",
+    "form_password_forgot": "Forgot your password?",
+    "form_server": "server",
+    "form_server_placeholder": "server",
+    "form_button": "Log In",
+    "form_button_loading": "Loading...",
+    "form_error_login": "Incorrect username/password!",
+    "form_error_server": "Server unreachable!",
+    "form_error_other": "An error occurred",
+    "update_password_event": "Password update",
+    "update_password_event_true": "Password changed!",
+    "update_password_event_false": "Password not updated!"
+  }
+}

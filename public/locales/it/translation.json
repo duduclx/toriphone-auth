@@ -1,0 +1,20 @@
+{
+  "login": {
+    "unauthorized": "server non autorizzato",
+    "invalid": "utente non riconosciuto",
+    "subscription": "Il tuo abbonamento non consente l'utilizzo di questa applicazione",
+    "form_email": "indirizzo email",
+    "form_password": "password",
+    "form_password_forgot": "Password dimenticata?",
+    "form_server": "server",
+    "form_server_placeholder": "Server",
+    "form_button": "Accedi",
+    "form_button_loading": "Caricamento...",
+    "form_error_login": "Nome utente/password errati!",
+    "form_error_server": "Server non raggiungibile!",
+    "form_error_other": "Si è verificato un errore",
+    "update_password_event": "aggiornamento password",
+    "update_password_event_true": "Password cambiata!",
+    "update_password_event_false": "La password non è stata aggiornata!"
+  }
+}
