@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: 'src/index.jsx', // Point d'entrée principal
-      name: 'toriphone-auth-module',
+      name: 'toriphone-auth',
       fileName: (format) => `index.${format}.js`,
       formats: ['es'], // Génère un bundle au format ESM
     },

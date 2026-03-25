@@ -41,17 +41,17 @@ git push origin --delete v1.0.0
 
 importer la branche par défaut:
 ```json
-"toriphone-auth-module": "git+https://github.com/duduclx/toriphone-auth-module.git",
+"toriphone-auth": "git+https://github.com/duduclx/toriphone-auth.git",
 ```
 
 importer une version spécifique :
 ```json
-"toriphone-auth-module": "git+https://github.com/duduclx/toriphone-auth-module.git#v1.0.0",
+"toriphone-auth": "git+https://github.com/duduclx/toriphone-auth.git#v1.0.0",
 ```
 
 importer une branche spécifique :
 ```json
-"toriphone-auth-module": "git+https://github.com/duduclx/toriphone-auth-module.git#feature-branch",
+"toriphone-auth": "git+https://github.com/duduclx/toriphone-auth.git#feature-branch",
 ```
 
 ## installation
@@ -67,7 +67,7 @@ dans le fichier où doit apparaitre l'interface:
 Pour afficher uniquement la page de Login
 
 ```js
-import { UserLogin } from "toriphone-auth-module";
+import { UserLogin } from "toriphone-auth";
 import { I18nextProvider } from "react-i18next";
 import i18n from "../../i18n";
 
@@ -81,7 +81,7 @@ import i18n from "../../i18n";
 Pour afficher le provider et laisser le choix de l'enfant:
 
 ```js
-import { UserAuthProvider } from "toriphone-auth-module";
+import { UserAuthProvider } from "toriphone-auth";
 import { I18nextProvider } from "react-i18next";
 import i18n from "../../i18n";
 
@@ -100,7 +100,7 @@ import i18n from "../../i18n";
 Pour afficher le provider et la page de login:
 
 ```js
-import { LoginAuthProvider } from "toriphone-auth-module";
+import { LoginAuthProvider } from "toriphone-auth";
 import { I18nextProvider } from "react-i18next";
 import i18n from "../../i18n";
 
@@ -116,7 +116,7 @@ import i18n from "../../i18n";
 Pour récupérer l'utilisateur:
 
 ```js
-import { useAuth } from "toriphone-auth-module";
+import { useAuth } from "toriphone-auth";
 
 ...
 

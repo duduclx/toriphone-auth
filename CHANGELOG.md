@@ -1,5 +1,9 @@
 # changelog
 
+## v1.1.14
+- mise à jour du readme
+- correction du nom du paquet
+
 ## v1.1.13
 - suppression de tout le code lié au portail
 - mise à jour de wazo-js-sdk
