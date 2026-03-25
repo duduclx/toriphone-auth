@@ -1,23 +1,23 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: './',
-  define: {global: 'window'},
+  base: "./",
+  define: { global: "window" },
   build: {
     lib: {
-      entry: 'src/index.jsx', // Point d'entrée principal
-      name: 'toriphone-auth',
-      fileName: (format) => `index.${format}.cjs`,
-      formats: ['esm'], // Génère un bundle au format ESM
+      entry: "src/index.jsx", // Point d'entrée principal
+      name: "toriphone-auth",
+      fileName: (format) => `index.${format}.js`,
+      formats: ["es"], // Génère un bundle au format ESM
     },
     rollupOptions: {
-      external: ['react', 'react-dom', "@chakra-ui/react", "@emotion/react", "next-themes"], // Exclut React et ReactDOM
+      external: ["react", "react-dom", "@chakra-ui/react", "@emotion/react", "@emotion/styled", "framer-motion"],
       output: {
         globals: {
-          react: 'React',
-          'react-dom': 'ReactDOM',
+          react: "React",
+          "react-dom": "ReactDOM",
           "@chakra-ui/react": "ChakraUI",
         },
       },
