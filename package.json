@@ -1,12 +1,12 @@
 {
   "name": "@duduclx/toriphone-auth",
-  "private": false,
+  "private": true,
   "version": "1.1.14",
   "type": "module",
-  "module": "dist/index.es.js",
+  "module": "dist/index.esm.js",
   "exports": {
     ".": {
-      "import": "./dist/index.es.js"
+      "import": "./dist/index.esm.js"
     }
   },
   "files": [
