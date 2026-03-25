@@ -3,12 +3,6 @@ firebase/
 .firebaserc
 firebase.json
 
-# build
-dist
-dist/
-dist-web
-dist-web/
-
 # vscode
 .vscode
 .vscode/*

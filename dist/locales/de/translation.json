@@ -1,0 +1,20 @@
+{
+  "login": {
+    "unauthorized": "nicht autorisierter Server",
+    "invalid": "Benutzer nicht erkannt",
+    "subscription": "Ihr Abonnement erlaubt die Nutzung dieser Anwendung nicht",
+    "form_email": "E-Mail-Adresse",
+    "form_password": "Passwort",
+    "form_password_forgot": "Passwort vergessen?",
+    "form_server": "Server",
+    "form_server_placeholder": "Server",
+    "form_button": "Einloggen",
+    "form_button_loading": "Laden...",
+    "form_error_login": "Falscher Benutzername oder falsches Passwort!",
+    "form_error_server": "Server nicht erreichbar!",
+    "form_error_other": "Ein Fehler ist aufgetreten",
+    "update_password_event": "Passwort aktualisieren",
+    "update_password_event_true": "Passwort geändert!",
+    "update_password_event_false": "Passwort nicht aktualisiert!"
+  }
+}
