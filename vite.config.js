@@ -10,7 +10,7 @@ export default defineConfig({
       entry: 'src/index.jsx', // Point d'entrée principal
       name: 'toriphone-auth',
       fileName: (format) => `index.${format}.js`,
-      formats: ['es'], // Génère un bundle au format ESM
+      formats: ['esm'], // Génère un bundle au format ESM
     },
     rollupOptions: {
       external: ['react', 'react-dom', "@chakra-ui/react"], // Exclut React et ReactDOM
