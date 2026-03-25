@@ -9,7 +9,7 @@ export default defineConfig({
     lib: {
       entry: 'src/index.jsx', // Point d'entrée principal
       name: 'toriphone-auth',
-      fileName: (format) => `index.${format}.cjs`,
+      fileName: (format) => `index.${format}.js`,
       formats: ['esm'], // Génère un bundle au format ESM
     },
     rollupOptions: {

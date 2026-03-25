@@ -3,10 +3,10 @@
   "private": true,
   "version": "1.1.14",
   "type": "module",
-  "module": "dist/index.esm.cjs",
+  "module": "dist/index.esm.js",
   "exports": {
     ".": {
-      "import": "./dist/index.esm.cjs"
+      "import": "./dist/index.esm.js"
     }
   },
   "files": [
