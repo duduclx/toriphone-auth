@@ -1,5 +1,8 @@
 # changelog
 
+## v1.1.15
+- mise à jour des packages
+
 ## v1.1.14
 - mise à jour du readme
 - correction du nom du paquet
